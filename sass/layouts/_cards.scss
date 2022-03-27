@@ -1,0 +1,125 @@
+// Rating State Start
+.rating-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: $Dark-Blue;
+  padding: 4rem 2rem;
+  border-radius: 1.5rem;
+  margin: 0 2rem;
+  max-width: 35rem;
+
+  .star {
+    img {
+      background-color: #2e3640;
+      border-radius: 100%;
+      padding: 1rem;
+      // width: 3rem;
+    }
+  }
+
+  .question {
+    padding: 2rem 0;
+    h2 {
+      font-size: 2.5rem;
+      padding-bottom: 1rem;
+      color: $White;
+    }
+
+    p {
+      font-size: 1.5rem;
+      color: $Medium-Grey;
+    }
+  }
+
+  // Selection section
+  .selection {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+
+    & > div {
+      background-color: hsl(213, 16%, 22%);
+      color: $Light-Grey;
+      // max-height: 1rem;
+      // max-width: 2rem;
+      font-size: 1.5rem;
+      border-radius: 100%;
+      padding: 1.5rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $orange;
+        color: $White;
+      }
+
+      &:active {
+        background-color: $Light-Grey;
+        color: $White;
+      }
+    }
+  }
+
+  // submit button
+  .submit {
+    margin-top: 2rem;
+    background-color: $orange;
+    text-align: center;
+    border-radius: 2.5rem;
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+    color: $White;
+    cursor: pointer;
+
+    &:active {
+      background-color: $White;
+      color: $orange;
+    }
+  }
+}
+// ----------End of Rating State-------
+
+//--------- start of thank you-----------
+.thank-you-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: $Dark-Blue;
+  padding: 4rem 2rem;
+  border-radius: 1.5rem;
+  margin: 0 2rem;
+  max-width: 35rem;
+  text-align: center;
+
+  // .illustration-image{
+
+  // }
+
+  .rating {
+    padding: 2rem 0;
+    color: $orange;
+    font-size: 1.5rem;
+
+    // display: inline;
+
+    p {
+      background-color: hsl(213, 16%, 22%);
+      display: inline;
+      border-radius: 1.5rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+
+  .gratitude {
+    h2 {
+      padding: 1rem 0;
+      color: $White;
+      font-size: 2.5rem;
+    }
+
+    p {
+      color: $Medium-Grey;
+      font-size: 1.5rem;
+    }
+  }
+}
+// -------End of thank you---------
+

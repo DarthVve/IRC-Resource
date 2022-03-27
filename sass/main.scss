@@ -1,0 +1,12 @@
+@import "abstracts/variables";
+@import "base/reset";
+@import "layouts/cards";
+
+.hidden {
+  display: none;
+}
+
+.bg {
+  background-color: $Light-Grey;
+  color: $White;
+}
