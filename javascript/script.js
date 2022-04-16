@@ -14,10 +14,14 @@ let value = 0;
 
 for (let i = 0; i < optionsEl.length; i++) {
   optionsEl[i].addEventListener("click", function () {
-    if (value <= i) {
-      value = 1;
-      value = i + value;
-    }
+    // if (value <= i) {
+    //   value = 1;
+    //   value = i + value;
+    // }      // Only God knows how the commented code came about
+              // And why i suffered myself
+    
+    value = 1;
+    value = i + value;
 
     optionsEl[i].classList.add("bg");
   });

@@ -43,8 +43,12 @@ body {
     .rating-wrapper .selection > div {
       background-color: #2f3741;
       color: #959eac;
+      width: 4rem;
+      height: 4rem;
+      display: flex;
+      align-items: center;
       font-size: 1.5rem;
-      border-radius: 100%;
+      border-radius: 50%;
       padding: 1.5rem;
       cursor: pointer; }
       .rating-wrapper .selection > div:hover {
